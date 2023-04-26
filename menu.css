@@ -1,0 +1,23 @@
+.mheading {
+    /*Multicolor on the heading*/
+    background-image: linear-gradient(to left, rgb(0, 146, 70), rgb(206, 43, 55));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-top: 50px;
+    margin-left: 11.4%;
+}
+
+p {
+    font-size: 20px;
+}
+

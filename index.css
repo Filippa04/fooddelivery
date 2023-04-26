@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+
+.index-text {
+    background-color: rgb(0, 0, 0);  /* fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* black / see-trough */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.img {
+    /* add blur effect */
+    filter: blur(3px);
+    /*-webkit-filter: blur(5px);*/
+    
+    /* full height */
+    height: 100%;
+    width: 100%;
+
+    /* center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container > div {
+    text-align: center;
+}
+
+.flex {
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: rgb(0, 146, 70);
+    height: 55px;
+    flex: 1;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 35px;
+}
+
+.IMG {
+    height: 35px;
+}

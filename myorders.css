@@ -1,0 +1,27 @@
+.oheading {
+    /*Multicolor on the heading*/
+    background-image: linear-gradient(to left, rgb(0, 146, 70), rgb(206, 43, 55), rgb(0,146, 70), rgb(206, 43, 55));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.orders {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-top: 90px;
+    margin-left: 11.4%;
+}
+
+.checkout {
+    margin-left: 80%; 
+    margin-top: 60px; 
+    background-color: rgb(3, 199, 98);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+}
